@@ -14,10 +14,13 @@ const Home = () => {
                 </div>
                     <h2 className='text-4xl sm:text-6xl font-bold text-white'>I'm a Full-Stack Developer</h2>
                     <p className='text-gray-400 py-4 max-w-md'>
-                        I'm a B.Tech 3rd year Student with the knowledge of DSA & Development in React, Flutter, Node.js, Github, MongpDB, MySQL & much more...
+                        I'm a B.Tech 3rd year Student of Ramkrishna Mahato Government Engineering College, Purulia with the knowledge of DSA & Development in React, Flutter, Node.js, Github, MongoDB, MySQL & much more...
+                    </p>
+                    <p className='text-gray-400 py-4 max-w-md'>
+                        Co-Lead GDSC RKMGEC, Creator @codewithbiki, Google Cloud Facilitator, In-Charge E-Cell RKMGEC...
                     </p>
                     <div>
-                        <Link to="projects" smooth duration={500} className='group rounded bg-gradient-to-b from-cyan-500 to-blue-500 w-1/3 h-8 flex items-center justify-center animate-bounce cursor-pointer' >Portfolio
+                        <Link to="projects" smooth duration={500} className='group rounded bg-gradient-to-b from-cyan-500 to-blue-500 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5' >Portfolio
                             
                             <span className='px-2 group-hover:rotate-90 duration-300'>
                                 <MdOutlineArrowRightAlt size={25}/>

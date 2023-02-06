@@ -11,28 +11,38 @@ const Projects = () => {
     {
       id: 1,
       src: Ai,
-      demo: "https://dipayansarkar47.github.io/AI-Newsletter/",
+      demo: "https://github.com/dipayansarkar47/AI-Newsletter",
       code: "https://github.com/dipayansarkar47/AI-Newsletter"
     },
     {
       id: 2,
-      src: Hostel
+      src: Hostel,
+      demo: "https://github.com/dipayansarkar47/hostel_management",
+      code: "https://github.com/dipayansarkar47/hostel_management"
     },
     {
       id: 3,
-      src: Keeper
+      src: Keeper,
+      demo: "https://github.com/dipayansarkar47/Todo_App",
+      code: "https://github.com/dipayansarkar47/Todo_App"
     },
     {
       id: 4,
-      src: Rentify
+      src: Rentify,
+      demo: "https://dipayansarkar47.github.io/rentify/",
+      code: "https://github.com/dipayansarkar47/rentify"
     },
     {
       id: 5,
-      src: Weather
+      src: Weather,
+      demo: "https://dipayansarkar47.github.io/WeatherApp/",
+      code: "https://github.com/dipayansarkar47/WeatherApp"
     },
     {
       id: 6,
-      src: Face
+      src: Face,
+      demo: "https://github.com/dipayansarkar47/face_and_eye_detection_app",
+      code: "https://github.com/dipayansarkar47/face_and_eye_detection_app"
     },
   ]
 
@@ -52,8 +62,12 @@ const Projects = () => {
               <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt="Ai" className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
-                  <button onClick={demo} className='w-1/2 px-6 py-3 m-4 duration-200'>Demo</button>
-                  <button onClick={code} className='w-1/2 px-6 py-3 m-4 duration-200'>Code</button>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:text-blue-500'>
+                    <a href={demo}>Demo</a>
+                  </button>
+                  <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:text-orange-500'>
+                    <a href={code}>Code</a>
+                  </button>
                 </div>
               </div>
 
