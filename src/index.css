@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Raleway:wght@400;700;900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    font-family: 'Raleway', sans-serif;
+  }
+  h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  h2{
+    font-family: 'Itim', cursive;
+  }
+  p{
+    font-family: 'Itim', cursive;
+  }
 }
