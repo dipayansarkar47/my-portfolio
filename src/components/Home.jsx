@@ -10,10 +10,10 @@ const Home = () => {
                             justify-center h-full px-4 md:flex-row text-white'>
                 <div className='flex flex-col justify-center h-full'>
                 <div>
-                    <img src={Dp} alt="my profile" className='rounded-2xl w-1/3 md:w-1/3 my-5 hover:scale-105 duration-300 sm:ease-in' />
+                    <img src={Dp} alt="my profile" className='rounded-2xl w-1/3 md:w-1/3 lg:w-1/5 my-5 hover:scale-105 duration-300 sm:ease-in' />
                 </div>
                     <h2 className='text-4xl sm:text-6xl font-bold text-white'>I'm a Full-Stack Developer</h2>
-                    <p className='text-gray-400 py-4 max-w-md'>
+                    <p className='text-gray-400 py-4 max-w-md w-full'>
                         I'm a B.Tech 3rd year Student of Ramkrishna Mahato Government Engineering College, Purulia with the knowledge of DSA & Development in React, Flutter, Node.js, Github, MongoDB, MySQL & much more...
                     </p>
                     <p className='text-gray-400 py-4 max-w-md'>
@@ -27,6 +27,7 @@ const Home = () => {
                             </span>
                         </Link>
                     </div>
+                    
                 </div>
 
                 
