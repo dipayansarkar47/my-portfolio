@@ -20,9 +20,12 @@ const About = () => {
                     <p className='text-xl mt-5 ease-in '>
                         I've worked for many projects for my clients as well as my personal projects. I also contributed for the GDSC RKMGEC web page. I have a Instagram page (@codewithbiki) where I create content for those who are just starting with programming and have more that 50k followers. I have learning attitude and growth mindset which helps me to collaborate with people and work for the society.
                     </p>
+                    <div className='flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-cyan-500 to-blue-500 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-5 gap-2'>
+
 
                     <AiOutlineCloudDownload />
-                    <a href="./Dipayan's Resume.pdf" download>Download CV</a>
+                    <a href="./Dipayan's Resume 2023.pdf" download>Download CV</a>
+                    </div>
             </div>
         </div>
     )
