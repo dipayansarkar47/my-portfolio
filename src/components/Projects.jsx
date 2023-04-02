@@ -1,5 +1,5 @@
 import React from 'react'
-import Ai from '../assets/projects/Ai.png'
+import Sandesh from '../assets/projects/sandeshh.png'
 import Face from '../assets/projects/Face.png'
 import Hostel from '../assets/projects/Hostel.png'
 import Keeper from '../assets/projects/Keeper.png'
@@ -10,9 +10,9 @@ const Projects = () => {
   const Projects = () => [
     {
       id: 1,
-      src: Ai,
-      demo: "https://github.com/dipayansarkar47/AI-Newsletter",
-      code: "https://github.com/dipayansarkar47/AI-Newsletter"
+      src: Sandesh,
+      demo: "https://sandeshh.netlify.app/",
+      code: "https://github.com/dipayansarkar47/Sandesh"
     },
     {
       id: 2,
@@ -62,10 +62,10 @@ const Projects = () => {
               <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt="Ai" className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:text-blue-500'>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
                     <a href={demo}>Demo</a>
                   </button>
-                  <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:text-orange-500'>
+                  <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-purple-900 to-gray-700 rounded-md'>
                     <a href={code}>Code</a>
                   </button>
                 </div>
