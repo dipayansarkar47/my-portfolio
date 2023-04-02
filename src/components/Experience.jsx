@@ -8,6 +8,9 @@ import firebase from '../assets/experience/firebase.png'
 import react from '../assets/experience/react.png'
 import tailwind from '../assets/experience/tailwind.png'
 import python from '../assets/experience/python.png'
+import dart from '../assets/experience/dart.png'
+import btc from '../assets/experience/bitcoin.png'
+import solidity from '../assets/experience/Solidity.png'
 const Experience = () => {
 
     const techs = () => [
@@ -64,6 +67,24 @@ const Experience = () => {
             scr: python,
             title: 'Python',
             style: 'shadow-blue-400'
+        },
+        {
+            id: 10,
+            scr: btc,
+            title: 'Bitcoin',
+            style: 'shadow-yellow-600'
+        },
+        {
+            id: 11,
+            scr: dart,
+            title: 'Dart',
+            style: 'shadow-blue-200'
+        },
+        {
+            id: 12,
+            scr: solidity,
+            title: 'Solidity',
+            style: 'shadow-purple-600'
         },
     ]
 
