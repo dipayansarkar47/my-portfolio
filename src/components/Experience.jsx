@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import html from '../assets/experience/html.png'
 import css from '../assets/experience/css.png'
 import javascript from '../assets/experience/javascript.png'
@@ -8,7 +8,13 @@ import firebase from '../assets/experience/firebase.png'
 import react from '../assets/experience/react.png'
 import tailwind from '../assets/experience/tailwind.png'
 import python from '../assets/experience/python.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Experience = () => {
+    useEffect(()=> {
+        AOS.init({duration: 1000})
+    })
 
     const techs = () => [
         {
@@ -80,7 +86,7 @@ const Experience = () => {
                 {
                     techs().map(({ id, scr, title, style }) => (
 
-                <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                <div data-aos="zoom-in" data-aos-duration="500" key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                     <img src={scr} alt="" className='w-20 mx-auto'/>
                     <p className='mt-4'>{title}</p>
                 </div>

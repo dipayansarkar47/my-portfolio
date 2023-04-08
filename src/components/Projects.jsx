@@ -1,11 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Sandesh from '../assets/projects/sandeshh.png'
 import Face from '../assets/projects/Face.png'
 import Hostel from '../assets/projects/Hostel.png'
 import Keeper from '../assets/projects/Keeper.png'
 import Rentify from '../assets/projects/Rentify.png'
 import Weather from '../assets/projects/Weather.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Projects = () => {
+  useEffect(()=> {
+    AOS.init({duration: 1000})
+})
 
   const Projects = () => [
     {
@@ -55,11 +61,11 @@ const Projects = () => {
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
           <p className='py-6'>Check out some of my work </p>
         </div>
-        <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div   className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
           {
             Projects().map(({ id, src, demo, code }) => (
 
-              <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+              <div data-aos="fade-in" data-aos-duration="500" key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt="Ai" className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
