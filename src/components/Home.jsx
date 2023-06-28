@@ -20,11 +20,11 @@ const Home = () => {
                     </div>
                             <h2 data-aos="fade-in" data-aos-duration="1000" className='text-4xl sm:text-6xl font-bold text-white'>Dipayan | <span data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black'>Full-Stack Developer</span></h2>
                             <p data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md w-full'>
-                                I'm a B.Tech 3rd year Student of Ramkrishna Mahato Government Engineering College, Purulia with the knowledge of DSA & Development in React, Flutter, Node.js, Github, MongoDB, MySQL & much more...
+                                I'm a B.Tech 4th year Student of Ramkrishna Mahato Government Engineering College, Purulia. With expertise in Data Structures and Algorithms (DSA), Development in ReactJs, NodeJs, MongoDB, MySQL & much more. As a dynamic and forward-thinking programmer, I'm committed to staying up to date with the latest trends and technologies in the field.
                             </p>
-                            <p data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md'>
+                            {/* <p data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md'>
                                 Co-Lead GDSC RKMGEC, Creator @codewithbiki, Google Cloud Facilitator, In-Charge E-Cell RKMGEC...
-                            </p>
+                            </p> */}
 
                     <div>
                         <Link to="projects" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group rounded bg-gradient-to-b from-cyan-500 to-blue-500 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28' >Portfolio
