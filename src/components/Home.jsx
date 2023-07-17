@@ -5,6 +5,8 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from 'react-scroll'
 import '../App.css'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 const Home = () => {
     useEffect(()=> {
@@ -26,13 +28,38 @@ const Home = () => {
                                 Co-Lead GDSC RKMGEC, Creator @codewithbiki, Google Cloud Facilitator, In-Charge E-Cell RKMGEC...
                             </p> */}
 
-                    <div>
-                        <Link to="projects" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group rounded bg-gradient-to-b from-cyan-500 to-blue-500 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28' >Portfolio
+                    <div className='flex flex-row gap-2'>
+                        <Link to="projects" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group rounded bg-gradient-to-r from-blue-600 to-cyan-600 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28' >Portfolio
 
                             <span className='px-2 group-hover:rotate-90 duration-300'>
                                 <MdOutlineArrowRightAlt size={25} />
                             </span>
                         </Link>
+                        <a target='_blank' rel="noreferrer" href="mailto:dipayansarkar265482@gmail.com" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 p-3 flex items-center bg-gradient-to-r from-indigo-600 via-purple-600 to-orange-600 justify-center cursor-pointer mt-5 mb-28' >
+
+                            <span className='pr-2'>
+                                <HiOutlineMail size={25} />
+                            </span>
+                            Hire Me
+                        </a>
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/dipayan-sarkar-ab465b1b5/" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+
+                            <span >
+                            <BsLinkedin size={25}></BsLinkedin>
+                            </span>
+                        </a>
+                        <a target='_blank' rel="noreferrer" href="https://www.github.com/dipayansarkar47" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+
+                            <span >
+                            <BsGithub size={25}></BsGithub>
+                            </span>
+                        </a>
+                        <a target='_blank' rel="noreferrer" href="https://www.instagram.com/codewithbiki" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+
+                            <span >
+                            <BsInstagram size={25}></BsInstagram>
+                            </span>
+                        </a>
                     </div>
 
                 </div>
