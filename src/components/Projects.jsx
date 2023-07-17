@@ -38,21 +38,21 @@ const Projects = () => {
     {
       id: 4,
       src: Keeper,
-      desc: "Keeper is a simple note taking application made using Flutter...",
+      // desc: "Keeper is a simple note taking application made using Flutter...",
       demo: "https://github.com/dipayansarkar47/Todo_App",
       code: "https://github.com/dipayansarkar47/Todo_App"
     },
     {
       id: 5,
       src: Weather,
-      desc: "It is a Weather application which shows temperatures of various cities across the globe made using REST API...",
+      // desc: "It is a Weather application which shows temperatures of various cities across the globe made using REST API...",
       demo: "https://dipayansarkar47.github.io/WeatherApp/",
       code: "https://github.com/dipayansarkar47/WeatherApp"
     },
     {
       id: 6,
       src: Face,
-      desc: "It is a Face-Detection application made using Python and Computer Vision...",
+      // desc: "It is a Face-Detection application made using Python and Computer Vision...",
       demo: "https://github.com/dipayansarkar47/face_and_eye_detection_app",
       code: "https://github.com/dipayansarkar47/face_and_eye_detection_app"
     },
@@ -60,14 +60,14 @@ const Projects = () => {
 
 
   return (
-    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 w-full text-white
+    <div name="projects" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
      md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+      <div className='max-w-screen-lg p- mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
           <p className='py-6'>Check out some of my work </p>
         </div>
-        <div   className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div   className='grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0'>
           {
             Projects().map(({ id, src, desc, demo, code }) => (
 
