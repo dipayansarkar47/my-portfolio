@@ -25,8 +25,8 @@ const Projects = () => {
       id: 2,
       src: ShopKaro,
       desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, NodeJS, MongoDB....",
-      demo: "https://github.com/dipayansarkar47/shopkaro",
-      code: "https://github.com/dipayansarkar47/shopkaro"
+      demo: "https://shopkaroo.vercel.app/",
+      code: "https://github.com/dipayansarkar47/shopkaro_backend"
     },
     {
       id: 3,
