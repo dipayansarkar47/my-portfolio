@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import Sandesh from '../assets/projects/sandeshh.png'
-import Face from '../assets/projects/Face.png'
+import Gist from '../assets/projects//gist.png'
 import Hostel from '../assets/projects/Hostel.png'
 import Keeper from '../assets/projects/Keeper.png'
 import ShopKaro from '../assets/projects/ShopKaro.png'
@@ -51,10 +51,10 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: Face,
+      src: Gist,
       // desc: "It is a Face-Detection application made using Python and Computer Vision...",
-      demo: "https://github.com/dipayansarkar47/face_and_eye_detection_app",
-      code: "https://github.com/dipayansarkar47/face_and_eye_detection_app"
+      demo: "https://gist-ai.vercel.app/",
+      code: "https://github.com/dipayansarkar47/Gist.AI-Summarizer"
     },
   ]
 
@@ -62,7 +62,7 @@ const Projects = () => {
   return (
     <div name="projects" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
      md:h-screen'>
-      <div className='max-w-screen-lg p- mx-auto flex flex-col justify-center w-full h-full'>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
           <p className='py-6'>Check out some of my work </p>
