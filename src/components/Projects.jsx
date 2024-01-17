@@ -1,10 +1,10 @@
 import React,{useEffect} from 'react'
 import Sandesh from '../assets/projects/sandeshh.png'
 import Gist from '../assets/projects//gist.png'
-import Hostel from '../assets/projects/Hostel.png'
-import Keeper from '../assets/projects/Keeper.png'
-import ShopKaro from '../assets/projects/ShopKaro.png'
-import Weather from '../assets/projects/Weather.png'
+import Chatbot from '../assets/projects/chatbot.png'
+import Ide from '../assets/projects/ide.png'
+import ShopEasy from '../assets/projects/shopeasy.png'
+import Upscale from '../assets/projects/upscale.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -23,31 +23,31 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: ShopKaro,
-      desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, NodeJS, MongoDB....",
-      demo: "https://shopkaroo.vercel.app/",
-      code: "https://github.com/dipayansarkar47/shopkaro_backend"
+      src: ShopEasy,
+      desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
+      demo: "https://shopeasyy.vercel.app/",
+      code: "https://github.com/dipayansarkar47/shopeasy"
     },
     {
       id: 3,
-      src: Hostel,
-      desc: "This android app is made using Flutter, Firebase which is a Hostel Management System for college...",
-      demo: "https://github.com/dipayansarkar47/hostel_management",
-      code: "https://github.com/dipayansarkar47/hostel_management"
+      src: Chatbot,
+      desc: "An Artificially Intelligent Chatbot using the GPT-4 Model to help people.",
+      demo: "https://cwbbot.vercel.app/",
+      code: "https://github.com/dipayansarkar47/ai-chatbot"
     },
     {
       id: 4,
-      src: Keeper,
+      src: Ide,
       // desc: "Keeper is a simple note taking application made using Flutter...",
-      demo: "https://github.com/dipayansarkar47/Todo_App",
-      code: "https://github.com/dipayansarkar47/Todo_App"
+      demo: "https://opeditor.vercel.app/",
+      code: "https://github.com/dipayansarkar47/online-code-editor"
     },
     {
       id: 5,
-      src: Weather,
+      src: Upscale,
       // desc: "It is a Weather application which shows temperatures of various cities across the globe made using REST API...",
-      demo: "https://dipayansarkar47.github.io/WeatherApp/",
-      code: "https://github.com/dipayansarkar47/WeatherApp"
+      demo: "https://upscaleai.vercel.app/",
+      code: "https://github.com/dipayansarkar47/upscale-ai"
     },
     {
       id: 6,
