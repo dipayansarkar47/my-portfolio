@@ -41,7 +41,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: "/Dipayan's Resume.pdf",
+            href: "./Resume-dipayan.pdf",
             style: "rounded-br-md",
             download: true
         },
@@ -52,7 +52,7 @@ const SocialLinks = () => {
             <ul>
                 {links.map(({id, child, href, style, download}) => (
                     <li key={id}
-                        className={"flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300" + style}>
+                        className={"flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] hover:duration-300" + style}>
                         <a href={href}
                            download={download}
                            className="flex justify-between items-center w-full text-white"

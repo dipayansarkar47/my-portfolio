@@ -9,9 +9,9 @@ const Contact = () => {
     return (
         <div name='contact' className='w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
             <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-screen'>
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-400'>Contact Me</p>
-                    <p className='mt-6'>Submit the form below to get in touch with me</p>
+                <div className='pb-8 mt-16 w-full flex flex-col justify-center items-center mx-auto'>
+                    <h3 className='text-4xl pb-2 font-bold inline border-b-4 border-gray-400'>Contact Me</h3>
+                    <h3 className='mt-6'>Submit the form below to get in touch with me</h3>
                 </div>
 
                 <div className='flex justify-center items-center'>
