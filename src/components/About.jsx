@@ -30,16 +30,16 @@ const About = () => {
                                 </svg>
                             </span>
                             <h3 className="flex pl-10 items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Full-Stack Developer&nbsp;&nbsp;&nbsp; {" "}
+                                Data Engineer @Curiflow &nbsp;&nbsp;&nbsp; {" "}
                                 <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                                     Latest
                                 </span>
                             </h3>
                             <time className="block pl-10 mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                Internship @Curiflow | Mar'24 - Present
+                                March 2024 - Present
                             </time>
                             <p className="mb-4 pl-10 text-base font-normal text-gray-500 dark:text-gray-400">
-                                Building a DaaS (Decision as a Service) Platform for US Healthcare using LLM models to generate effective decisions
+                                Developed and maintained data pipelines and ETL processes to ensure data accuracy and availability. Collaborated with data scientists to implement machine learning models and optimize data workflows.
                             </p>
                             
                         </li>

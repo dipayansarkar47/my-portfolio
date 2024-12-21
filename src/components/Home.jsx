@@ -21,7 +21,7 @@ const Home = () => {
                         <img src={Dp} alt="my profile" data-aos="fade-in" data-aos-duration="500" className='mt-20 rounded-full cursor-pointer shadow-[2px_2px_10px_1px_rgba(109,40,217)] w-1/3 md:w-1/3 lg:w-1/5 my-5 hover:scale-105 duration-300 sm:ease-in' />
                     
                             <h2 data-aos="fade-in" data-aos-duration="1000" className='text-4xl sm:text-6xl mb-4 font-bold text-white'>Dipayan Sarkar</h2>
-                            <h3 data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl font-black'>CSE'24 | Full-Stack Developer</h3>
+                            <h3 data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl font-black'>Data Engineer | @Curiflow</h3>
                             {/* <p data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md w-full'>
                                 I'm a B.Tech 4th year Student of Ramkrishna Mahato Government Engineering College, Purulia. With expertise in Data Structures and Algorithms (DSA), Development in ReactJs, NodeJs, MongoDB, MySQL & much more. As a dynamic and forward-thinking programmer, I'm committed to staying up to date with the latest trends and technologies in the field.
                             </p> */}
@@ -42,7 +42,7 @@ const Home = () => {
                             <span className='pr-2'>
                                 <HiOutlineMail size={25} />
                             </span>
-                            Hire Me
+                            Mail Me
                         </a>
                         <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/dipayan-sarkar-ab465b1b5/" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
